@@ -1,0 +1,32 @@
+#border{
+    
+    width: 960px;
+    margin: auto;
+}
+
+#container {
+    display:flex;
+    border: solid black 2px;
+    
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.square {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+/* .square:hover{
+    background-color: blue;
+
+} */
+
+#btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
