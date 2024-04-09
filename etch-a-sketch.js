@@ -31,9 +31,9 @@ for (i=0; i<size; i++){
             const item =colours[Math.floor(Math.random()*colours.length)]
             square.setAttribute("style", 'Background-color: '+item)
         })
-        square.addEventListener('mouseout', ()=>{
-            square.setAttribute("style", 'Background-color: white;')
-        })
+        // square.addEventListener('mouseout', ()=>{
+        //     square.setAttribute("style", 'Background-color: white;')
+        // })
         grid.appendChild(square)
         container.appendChild(grid)
     }
